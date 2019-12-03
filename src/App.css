@@ -1,0 +1,69 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto;
+}
+html,body{
+  height: 100%;
+  width: 100%;
+}
+
+input{
+  outline: none;
+}
+li{
+  list-style: none;
+}
+body{
+  background-image: url(https://source.unsplash.com/random/1600x900?white);
+  background-repeat: no-repeat;
+  background-size:cover;
+  overflow: hidden;
+}
+
+#root{
+  overflow: auto;
+}
+
+.App {
+  text-align: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  smin-height: 624px;
+  position: relative;
+}
+.App-space{
+  flex-basis: 28%;
+  width: 100%;
+}
+#root{
+  height: 100%;
+  width: 100%;
+}
+a{
+  display: block;
+  text-decoration: none;
+}
+
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}

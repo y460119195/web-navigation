@@ -1,0 +1,8 @@
+.time-box-container{
+  width: 100%;
+  margin-top: 10%;
+}
+.time-box-container .time-box{
+  font-family:'Monaco','Comic Sans MS';
+  font-size: 60px;
+}
